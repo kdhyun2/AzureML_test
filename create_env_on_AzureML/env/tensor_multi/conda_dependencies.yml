@@ -1,0 +1,38 @@
+channels:
+- anaconda
+- conda-forge
+dependencies:
+- python=3.8
+- pip=20.2.4
+- pip:
+  - azureml-core==1.33.0
+  - azureml-defaults==1.33.0
+  - azureml-telemetry==1.33.0
+  - azureml-train-restclients-hyperdrive==1.33.0
+  - azureml-train-core==1.33.0
+  - cmake==3.18.2
+  - mkl==2018.0.3
+  - horovod==0.21.3
+  - pandas
+  - numpy
+  - scikit-learn
+  - tqdm
+  - matplotlib
+  - tensorflow==2.6.0
+  - horovod==0.21.3
+  - tensorboard==1.14.0
+  - future==0.17.1
+  - opencv-python
+  - mtcnn
+  - scikit-learn
+  - scikit-image
+  - tqdm
+  - matplotlib
+  - statistics
+  - moviepy
+  - librosa
+  - imageio
+  - imageio-ffmpeg
+  - ffmpeg-python
+
+name: azureml_2d1e1d183b0b63247e9668ec4872e8d3
